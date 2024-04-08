@@ -1,14 +1,8 @@
----
-title: Streamlit Classifier
-emoji: 📉
-colorFrom: yellow
-colorTo: blue
-sdk: streamlit
-sdk_version: 1.33.0
-app_file: app.py
-pinned: false
-license: apache-2.0
----
+Streamlit app set up as wrapper around classification model. Training done through fastai framework.
+
+Architecture: Resnet50
+Training Dataset: Oxford Pets, source - https://docs.fast.ai/tutorial.pets.html
+With Reference to - https://www.tanishq.ai/blog/posts/2021-11-16-gradio-huggingface.html
 
 Labeled Breeds in Model: 'British Shorthair', 'Persian', 'Maine Coon', 'Newfoundland', 'Russian Blue',
 'Ragdoll', 'Egyptian Mau', 'Abyssinian', 'Bombay', 'Pug', 'Sphynx', 'Bengal', 'American Bulldog',
